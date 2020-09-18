@@ -1,5 +1,5 @@
 Package: montyhall
-Title: What the Package Does (Lets win a Car!)
+Title: Lets win a car!
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jacob",
@@ -7,11 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jcastr56@asu.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (Game runs a simulation to determine which method is better when playing the door game that has three options. Goat, Goat, and Car with the ultimate goal being to open up the car door The methods are to stay with the door you iinital picked or to pick a new car.
-Depends:
-	dplyr
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Plays the montyhal game).
+License: GPL-3
+Depends: dplyr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
